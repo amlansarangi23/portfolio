@@ -5,8 +5,8 @@ import LinkedinIcon from "./Images/icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
-// const EmailSection = () => {
-//   const [emailSubmitted, setEmailSubmitted] = useState(false);
+const EmailSection = () => {
+ const [emailSubmitted, setEmailSubmitted] = useState(false);
 
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
