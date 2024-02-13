@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div>
       {/* <Image src={bgimg} className="opacity-[0.5] z-[0] absolute top-0 left-0 w-[100%] h-inherit"></Image> */}
-    <section className="lg:py-16 ">
+    <section className="pb-16">
       
       <div className="grid grid-cols-1 md:grid-cols-12">
         <motion.div
@@ -43,18 +43,29 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ffffff] text-lg mb-10 lg:text-xl md:w-5/6 text-center sm:text-left opacity-100">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, hic.
+          Welcome to my corner of the web! Here, you'll find a showcase of my projects, where I blend creativity with tech to create meaningful solutions. Join me on this journey as I explore the endless possibilities of coding and design!
           </p>
-          <div className="w-[100%] text-center md:text-left">
+          <div className="flex justify-center md:justify-normal flex-wrap">
+          <div className=" text-center md:text-left mr-5  max-[415px]:mb-10  max-[415px]:mx-auto">
             
             <Link
-              href="https://lavender-micky-70.tiiny.site/"
-              className="z=10 px-4 py-4 text-2xl rounded-full bg-sky-700 w-3/4 h-16 text-center hover:bg-sky-900 text-white border-slate-900 border-2 mt-5 m-auto"
+              href="https://drive.google.com/file/d/1oBxGRX_BznKOcNmlPNen6Yl-cbu-RcXX/view?usp=sharing"
+              className="z=10 px-4 py-4 text-2xl rounded-full bg-violet-700 w-3/4 h-16 text-center hover:bg-sky-900 text-white border-slate-900 border-2 mt-5 m-auto"
             >
                 Download CV
               
             </Link>
+          </div>
+          <div className="text-center md:text-left">
+            
+            <Link
+              href=""
+              className="z=10 px-4 py-4 text-2xl rounded-full bg-violet-700 w-3/4 h-16 text-center hover:bg-sky-900 text-white border-slate-900 border-2 mt-5 m-auto"
+            >
+                Contact Me
+              
+            </Link>
+          </div>
           </div>
         </motion.div>
         <motion.div

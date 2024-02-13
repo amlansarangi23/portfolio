@@ -25,10 +25,16 @@ const AboutSection = () => {
           <div
           className="w-[35%] lg:w-[53%] xl:w-[40%] 2xl:w-[33%] h-1 bg-fuchsia-700 mb-5 m-auto lg:ml-0"></div>
           <p className="text-lg lg:text-xl">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt aspernatur deleniti, delectus modi minus fuga distinctio harum rerum dignissimos voluptatem, nostrum deserunt architecto, repellat ipsum libero. Est dicta aut quasi in necessitatibus placeat, consequuntur amet id qui nobis. A consequatur rerum nostrum deserunt! Veritatis, adipisci repellendus! Totam, ratione facilis?
+          I'm Amlan Sarangi, a passionate Computer Science ans Engineering sophomore at NIT Rourkela, with a keen interest in Web Development and leveraging technology to tackle real-world challenges.
+          <br></br>
+          <br></br>
+          I am equipped with relevant skills including MERN stack, DSA in C++ and various other CS core concepts.
+          <br></br>
+          <br></br>
+          I am part of the official Web Dev club of NITR, Webwiz where I am a Pod Leader and also a part of its annual hackathon HackOdisha's organising team which had over 3000 participants.
           </p>
           </div>
-          <div className="w-11/12 ml-[-1rem] ">
+          <div className="w-11/12 ml-[-1rem]">
            <Tabs />
           </div>
            

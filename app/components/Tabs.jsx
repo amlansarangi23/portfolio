@@ -17,8 +17,8 @@ const Tabs = () => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
-                    ? "text-white bg-violet-600"
-                    : "text-blueGray-600 bg-violet-800")
+                    ? "text-white bg-violet-600 border-2 border-white"
+                    : "text-blueGray-600 bg-violet-800 border-2 border-violet-950")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -36,8 +36,8 @@ const Tabs = () => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
-                    ? "text-white bg-violet-600"
-                    : "text-blueGray-600 bg-violet-800")
+                    ? "text-white bg-violet-600 border-2 border-white"
+                    : "text-blueGray-600 bg-violet-800 border-2 border-violet-950")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -55,8 +55,8 @@ const Tabs = () => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
-                    ? "text-white bg-violet-600"
-                    : "text-blueGray-600 bg-violet-800")
+                    ? "text-white bg-violet-600 border-2 border-white"
+                    : "text-blueGray-600 bg-violet-800 border-2 border-violet-950")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -70,7 +70,7 @@ const Tabs = () => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words bg-violet-800  w-full mb-6 shadow-lg rounded h-80">
+          <div className="relative flex flex-col min-w-0 break-words bg-violet-800  w-full mb-6 shadow-slate-900 shadow-xl rounded h-80 border-2 border-black">
             <div className="px-4 py-5 flex-auto ">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
